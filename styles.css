@@ -1,0 +1,146 @@
+/*****************************************
+*********HEADER***********
+*******************************************/
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	height: 100vh;
+}
+
+/* NAVBAR */
+
+.navbar {
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.navbar-nav {
+    float:none;
+    margin: 0 auto;
+}
+
+.header-list-item {
+    margin-right: 64px;
+}
+
+.navbar-box, .navbar-custom {
+    background-color: red !important;
+}
+
+.collapsible-navbar {
+    background-color: rgb(255,0,0,1);
+    z-index: 1;
+}
+
+.color-me {
+    color: #fff !important;
+}
+
+
+
+h1 {
+    color: white;
+    font-weight: 900;
+    line-height: 1.5;
+    position: absolute;
+	width: 70%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    
+    margin-top: 3%;
+}
+
+/*****************************************
+*********FEATURES***********
+*******************************************/
+#features {
+    text-align: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+#features h2 {
+    font-weight: bold;
+    color:red;
+    text-align:center;
+    font-size: 40px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#features h4 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+.features-img-box {
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+    padding: auto 5px;
+    display: inline-block;
+}
+
+.features-img {
+    width: 70px;
+    height: 93px;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+/*****************************************
+*********COMPLEX-NETWORK***********
+*******************************************/
+
+#complex-network {
+    background-color: pink;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+#complex-network h2 {
+    text-align: center;
+    padding: 0px 16%;
+    font-weight: bold;color:red;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#complex-network p {
+    color:red;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+#complex-network ul {
+    margin-bottom: 20px;
+}
+
+.network-list-div {
+    border-right: 1px solid;
+    min-height: 200px;
+}
+
+.dont-display {
+    display: none;
+}
